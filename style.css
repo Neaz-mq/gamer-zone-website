@@ -159,6 +159,8 @@
     
 }
 
+
+
 .box p{
     color: #534C64;
     font-size: 13px;
@@ -167,6 +169,8 @@
 
 .hover-effect:hover{
     border: 2px solid red;
+  
+    
 }
 
 .fa-regular{
@@ -223,6 +227,48 @@
   right: 80px;
    top: -170px;
    
+}
+
+
+/* featured icon section */
+
+.featured-container{
+   
+    margin-top: -100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #FFF9FC;
+    padding-top: 100px;
+    margin-bottom: 60px;
+    padding-bottom: 100px;
+}
+
+.icon-container{
+    
+    flex-basis: 210px;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.icon-container img{
+    width: 35px;
+    height: 35px;
+}
+
+.icon-box-container{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+
+}
+
+.icon-container:hover{
+    color: #FF42A5;
+    border: 1px solid #FF42A5;
 }
 
 
@@ -333,7 +379,34 @@
    
 }
   
-  
+  /* featured icon section */
+
+
+
+.icon-container{
+    
+    flex-basis: 90px;
+    
+}
+
+.icon-container img{
+    width: 25px;
+    height: 25px;
+}
+
+.icon-box-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon-container:hover{
+    color: #FF42A5;
+    border: 1px solid #FF42A5;
+}
+
   
 
  
@@ -450,7 +523,36 @@
    
 }
   
+  /* featured icon section */
+
+
+
+.icon-container{
+    
+    flex-basis: 90px;
+    
+}
+
+.icon-container img{
+    width: 25px;
+    height: 25px;
+}
+
+.icon-box-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon-container:hover{
+    color: #FF42A5;
+    border: 1px solid #FF42A5;
+}
+
   
+
   
 
  
